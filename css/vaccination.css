@@ -1,0 +1,80 @@
+/* ================= VACCINATION BANNER ================= */
+.vaccination-banner {
+    background:
+        linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+        url("../images/health.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    color: white;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 40px 20px;
+    height: 70vh;
+}
+
+.vaccination-banner h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.vaccination-banner p {
+    font-size: 18px;
+    max-width: 600px;
+}
+
+/* ================= VACCINATION CONTENT ================= */
+.vaccination-content {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff7f0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.vaccination-content h2 {
+    color: #222;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.vaccination-content p {
+    font-size: 16px;
+    color: #444;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.vaccination-content ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.vaccination-content li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #444;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #f7c18f;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #ff7a00;
+}
+

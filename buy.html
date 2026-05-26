@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Buy Now - Happy Paws</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/buy.css">
+</head>
+<body>
+
+<header>
+  <div class="logo">🐾 Happy Paws</div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="healthCare.html">Health & Care</a>
+    <a href="vaccination.html">Vaccinations</a>
+    <a href="pets.html">Pets</a>
+    <a href="contact.html">Contact</a>
+    <a href="loginSignUp.html" class="nav-btn">Log In\ Sign Up</a>
+  </nav>
+</header>
+
+<section class="buy-now">
+  <h1>Buy Your Pet Now</h1>
+
+  <!-- Top informational message -->
+  <div class="info-message">
+    🐾 You can buy your pet online here, or visit our store to pick it up directly!
+  </div>
+
+  <form id="buyForm">
+    <h2 id="petName">Pet Name: </h2>
+    <p id="petDetails"></p>
+
+    <!-- Note about breed -->
+    <p class="breed-note">
+      Note: Breed may be the same, but each pet is unique and may differ slightly.
+    </p>
+
+    <label>Your Name</label>
+    <input type="text" id="buyerName" placeholder="Your Full Name" required>
+
+    <label>Email</label>
+    <input type="email" id="buyerEmail" placeholder="Your Email" required>
+
+    <label>Phone No</label>
+    <input type="phone" id="buyerPhone" placeholder="Your Phone No" required>
+
+    <label>Permanent Address</label>
+    <textarea id="buyerAddress" placeholder="Your Address" required></textarea>
+
+    <label>Do you have experience owning a pet?</label>
+    <select id="petExperience" required>
+      <option value="">Select</option>
+      <option value="Yes">Yes</option>
+      <option value="No">No</option>
+    </select>
+
+    <button type="submit">Submit Order</button>
+  </form>
+</section>
+
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-about">
+      <h3>Happy Paws Pet Store</h3>
+      <p>Providing your perfect pet companions since 2023.</p>
+    </div>
+    
+    <div class="footer-contact">
+      <h4>Contact Us</h4>
+      <p>📍 123 Pet Street, Faisalabad, Pakistan</p>
+      <p>📞 +92 556 6743844</p>
+      <p>✉️ happypaws@gmail.com</p>
+    </div>
+    
+    <div class="footer-rights">
+      <p>© 2026 Happy Paws Pet Store | 6th Semester Project</p>
+      <p>Developed by: Ayesha</p>
+    </div>
+  </div>
+</footer>
+
+<script src="js/common.js"></script>
+
+<script src="js/pets.js"></script>
+<script src="js/buy.js"></script>
+</body>
+</html>

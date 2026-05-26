@@ -1,0 +1,140 @@
+/* Reset default browser spacing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Page background */
+body {
+  background:white;
+}
+
+/* Main section padding */
+.contact-section {
+  padding: 60px 20px;
+}
+
+/* Header alignment */
+.contact-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* Main heading style */
+.contact-header h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #000; /* Black heading */
+}
+
+/* Sub heading style */
+.contact-header p {
+  font-size: 18px;
+  color: #000;
+  margin-top: 8px;
+}
+
+/* Container for left & right cards */
+.contact-container {
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+/* ================= Left Card ================= */
+.contact-info {
+  flex: 1;
+  background: #fff;
+  padding: 30px;
+  border-radius: 14px;
+  box-shadow: 0 10px 25px orange;
+}
+
+/* Left card heading */
+.contact-info h3 {
+  color: #ff7a00; /* Orange color */
+  margin-bottom: 20px;
+}
+
+/* Phone, email, location row */
+.info-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+/* Icon size */
+.info-item span {
+  font-size: 18px;
+}
+
+/* Response message box */
+.response-box {
+  margin-top: 25px;
+  padding: 15px;
+  border: 1px solid #ff7a00;
+  border-radius: 10px;
+  color: #ff7a00;
+  font-size: 14px;
+}
+
+/* ================= Right Card ================= */
+.contact-form {
+  flex: 1;
+  background: #fff;
+  padding: 30px;
+  border-radius: 14px;
+  box-shadow: 0 10px 25px orange;
+}
+
+/* Form labels */
+.contact-form label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Input & textarea fields */
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 18px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  outline: none;
+}
+
+/* Textarea height */
+.contact-form textarea {
+  height: 120px;
+  resize: none;
+}
+
+/* Submit button */
+.contact-form button {
+  background: #ff7a00;
+  color: #fff;
+  border: none;
+  padding: 12px 22px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+/* Button hover effect */
+.contact-form button:hover {
+  background: #e66d00;
+}
+
+
+
+

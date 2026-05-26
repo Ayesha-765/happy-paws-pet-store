@@ -1,0 +1,219 @@
+html {
+  scroll-behavior: smooth;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+/* NAVBAR */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ff914d;
+    padding: 15px 40px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 0 15px;
+    color: white;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav a.active,
+nav a.nav-btn.active {
+    color: #222222;
+}
+
+/* Navbar Buttons */
+.nav-btn {
+    display: inline-block;
+    padding: 8px 16px;
+    margin-left: 4px;
+    background: #f7c18f;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: 0.3s;
+    border: 2px solid transparent;
+}
+
+.nav-btn:hover {
+    background: white;
+    color: #ff7a00;
+    border: 2px solid #ff7a00;
+}
+
+.nav-btn:active {
+    transform: scale(0.95);
+}
+
+header nav a.nav-btn:first-child {
+    margin-left: 20px;
+}
+
+/* HERO SECTION */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 80px 160px 80px;
+    /* background: #fff3e6; */
+    background: linear-gradient(135deg, #ff914d, #f9daaf,#feb246);
+
+
+}
+
+.hero-text {
+    width: 50%;
+}
+
+.hero-text h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ff914d;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+
+.hero-img img {
+    width: 350px;
+}
+
+/* ABOUT */
+.about {
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.about h2 {
+    margin-bottom: 10px;
+}
+
+/* FEATURED PETS */
+.featured {
+    padding: 50px;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+.pet-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.pet-card {
+    background: white;
+    width: 250px;
+    /* padding: 15px; */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.pet-card img {
+    width: 99%;
+    height: 180px;
+    object-fit: cover;
+    /* border-radius: 10px; */
+}
+
+.pet-card h3 {
+    margin: 10px 0;
+}
+
+/* WHY CHOOSE US */
+.why {
+    padding: 50px;
+    text-align: center;
+}
+
+.why-box {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+/* FOOTER */
+/* ================= FOOTER ================= */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 60px 0px;   /* padding barha di */
+  font-size: 14px;
+  min-height: 300px;    /* minimum height */
+}
+
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.footer h3, .footer h4 {
+  color: #ff6600;
+  margin-bottom: 10px;
+}
+
+.footer p {
+  margin: 5px 0;
+  color: #ddd;
+}
+
+.footer-rights {
+  text-align: right;
+  flex: 1 1 200px;
+}
+
+/* Responsive for mobile */
+@media screen and (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer-rights {
+    text-align: left;
+    margin-top: 20px;
+  }
+}
+#contact {
+  scroll-margin-top: 80px;
+}
+
