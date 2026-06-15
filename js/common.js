@@ -1,7 +1,7 @@
 // common.js - Shared functionality across all pages
 
 // Update navigation based on login status
-document.addEventListener('DOMContentLoaded', function() {
+function setupNav() {
     const nav = document.querySelector('nav');
     const authLink = nav.querySelector('a:last-child');
     if (localStorage.getItem('loggedIn') === 'true') {
@@ -17,6 +17,20 @@ document.addEventListener('DOMContentLoaded', function() {
             link.classList.add('active');
         }
     });
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+    setupNav();
+
+    const menuToggle = document.querySelector('.menu-toggle');
+    const navbar = document.querySelector('.navbar');
+
+    if (menuToggle && navbar) {
+        menuToggle.addEventListener('click', function() {
+            navbar.classList.toggle('nav-open');
+            menuToggle.classList.toggle('open');
+        });
+    }
 });
 
 // Logout function

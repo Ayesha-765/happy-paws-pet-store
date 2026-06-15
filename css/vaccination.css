@@ -78,3 +78,50 @@
     background: #ff7a00;
 }
 
+/* ================= MOBILE RESPONSIVE ================= */
+@media (max-width: 768px) {
+    .vaccination-banner {
+        height: 50vh;
+    }
+
+    .vaccination-banner h1 {
+        font-size: 32px;
+    }
+
+    .vaccination-banner p {
+        font-size: 16px;
+    }
+
+    .vaccination-content h2 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 640px) {
+    .vaccination-banner {
+        height: 40vh;
+        padding: 30px 15px;
+    }
+
+    .vaccination-banner h1 {
+        font-size: 26px;
+    }
+
+    .vaccination-banner p {
+        font-size: 14px;
+    }
+
+    .vaccination-content {
+        padding: 15px;
+    }
+
+    .vaccination-content h2 {
+        font-size: 20px;
+    }
+
+    .vaccination-content p,
+    .vaccination-content li {
+        font-size: 14px;
+    }
+}
+

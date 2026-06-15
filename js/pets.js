@@ -100,7 +100,7 @@ function renderPets(pets) {
 
   pets.forEach(pet => {
     const card = document.createElement("div");
-    card.classList.add("pet-card", pet.type);
+    card.classList.add("pet-card", `pet-${pet.type}`);
 
     card.innerHTML = `
       <img src="${pet.img}" alt="${pet.name}">
